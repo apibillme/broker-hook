@@ -20,8 +20,6 @@ const App = () => (
 );
 ```
 
-> Checkout [the example](/example) on the project
-
 ## API
 
 ### `SSEProvider`
@@ -94,26 +92,4 @@ const Comments = () => {
 
   return <p>{state.data.value !== null && <span>{state.data.value}</span>}</p>;
 };
-```
-
-## Run example
-
-```
-yarn start:server
-```
-
-```
-yarn start:example
-```
-
-## Run the build
-
-```
-yarn build
-```
-
-## Run the test
-
-```
-yarn test
 ```
