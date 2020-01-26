@@ -23,7 +23,7 @@ export const SSEProvider = ({ endpoint, options, ...props }) => {
 SSEProvider.propTypes = {
   endpoint: PropTypes.string.isRequired,
   options: PropTypes.shape({
-    withCredentials: PropTypes.bool.isRequired,
+    authorization: PropTypes.string
   }),
 };
 

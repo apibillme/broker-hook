@@ -1,6 +1,6 @@
 {
   "name": "broker-hook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Broker Hook for React",
   "main": "index.js",
   "license": "MIT",
