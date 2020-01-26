@@ -29,6 +29,6 @@ SSEProvider.propTypes = {
 
 SSEProvider.defaultProps = {
   options: {
-    withCredentials: false,
+    authorization: '',
   },
 };
