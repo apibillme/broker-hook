@@ -12,7 +12,7 @@ export const createSourceManager = ({ endpoint, options = {} }) => {
     },
     addEventListener(name, listener) {
       if (!state.listenersByName.size) {
-        state.source = new BrokerClient(endpoint, headers: options.headers);
+        state.source = new BrokerClient(endpoint, options.headers);
       }
 
       const listeners = state.listenersByName.get(name) || new Set();
