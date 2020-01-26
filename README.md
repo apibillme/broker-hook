@@ -1,25 +1,5 @@
 # Broker Hook
 
-## Usage
-
-```jsx
-import React from 'react';
-import { useSSE, SSEProvider } from 'broker-hook';
-
-const Comments = () => {
-  const state = useSSE('comments');
-
-  return state ? state.data.value : '...';
-};
-
-const App = () => (
-  <SSEProvider endpoint="https://sse.example.com">
-    <h1>Subscribe & update to SSE event</h1>
-    <Comments />
-  </SSEProvider>
-);
-```
-
 ## API
 
 ### `SSEProvider`
