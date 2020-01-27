@@ -1,7 +1,7 @@
 {
   "name": "broker-hook",
   "author": "Bevan Hunt",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Broker Hook for React",
   "main": "index.js",
   "license": "MIT",
