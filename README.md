@@ -1,5 +1,7 @@
 # Broker Hook
 
+Check out broker - your Real-time Zero-Code API Server - [https://crates.io/crates/broker](https://crates.io/crates/broker)
+
 ## API
 
 ### `SSEProvider`
