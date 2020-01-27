@@ -1,6 +1,7 @@
 {
   "name": "broker-hook",
-  "version": "0.0.6",
+  "author": "Bevan Hunt",
+  "version": "0.0.7",
   "description": "Broker Hook for React",
   "main": "index.js",
   "license": "MIT",
@@ -13,11 +14,12 @@
   },
   "dependencies": {
     "prop-types": "^15.6.2",
-    "broker-client": "^0.0.5"
+    "broker-client": "^0.0.6"
   },
   "devDependencies": {
   },
   "peerDependencies": {
     "react": ">= 16.7.0-alpha.0"
-  }
+  },
+  "homepage": "https://crates.io/crates/broker"
 }
