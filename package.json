@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "prop-types": "^15.6.2",
-    "broker-client": "^0.0.7"
+    "broker-client": "^0.0.8"
   },
   "devDependencies": {
   },
